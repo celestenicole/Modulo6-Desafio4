@@ -1,5 +1,6 @@
 Like Me – Backend (Parte I y Parte II)
-Autor
+
+Autor:
 
 Celeste Nicole Lluen Delgado
 
@@ -24,7 +25,8 @@ cors
 
 JavaScript
 
-Estructura del proyecto
+Estructura del proyecto:
+
 Like_Me_Parte_I_II_Celeste_Lluen/
 ├── index.js
 ├── db.js
@@ -49,13 +51,14 @@ CREATE TABLE posts (
   likes INT
 );
 
-Instalación
+Instalación:
 
 Desde la terminal, ubicada en la raíz del proyecto, ejecutar:
 
 npm install
 
-Ejecución
+
+Ejecución:
 
 Para iniciar el servidor, ejecutar:
 
@@ -66,16 +69,19 @@ El servidor se levanta en el puerto 3000:
 
 http://localhost:3000
 
+
 Rutas disponibles
 GET /posts
 
 Devuelve todas las publicaciones registradas en la tabla posts de la base de datos PostgreSQL en formato JSON.
+
 
 POST /posts
 
 Permite registrar una nueva publicación en la base de datos.
 
 Ejemplo de body enviado en formato JSON:
+
 
 {
   "titulo": "Publicación de ejemplo",
